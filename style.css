@@ -1,0 +1,715 @@
+* {
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    src: url(fonts/South\ Amsterdam\ Demo.ttf);
+    font-family: logo_font;
+}
+
+@font-face {
+    src: url(fonts/Lato-Regular.ttf);
+    font-family: footer;
+}
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+header{
+    position:fixed;
+    width: 100%;
+    background-color:rgba(112,0,14,255) ;
+    color: rgba(212,192,181);
+    height: 120px;
+    
+  
+}
+nav{
+    float: left;
+    width: 30%; 
+    padding-top: 50px;
+
+}  
+
+.logo{  
+    float:left;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    font-family: logo_font;
+    width: 40%;
+}
+
+.navigatie2{
+    float: left;
+    width: 30%; 
+    padding-top: 50px; 
+    text-align:right;
+    padding-right:160px ;
+}
+
+
+a { 
+    
+    color: rgba(212,192,181);
+    text-decoration: none;
+    font-size: 28px;
+    font-variant: small-caps;
+    padding-left: 100px;   
+}
+
+a:hover{
+    font-size: 30px;
+    text-shadow: 0px 0px 4px white;  
+}
+
+
+main{
+    padding-top: 250px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: rgba(212,192,181);
+    color:rgba(152,43,46,255);
+    height: 3500px;
+
+
+}
+
+.style{
+    float: left;
+    padding-top: 180px;
+    background: url(images/Taylor.jpeg);
+    border-radius: 10px;
+    width:40%;
+    box-shadow: 10px 10px 0px 10px ;
+    background-repeat: no-repeat;
+    height: 650px;
+    background-size:100% 100%;
+
+}
+
+.red{
+    float:right;
+    width:50%;
+    height: 600px;
+    text-align: center;
+}
+
+#b a{ 
+    
+    text-decoration: none;
+    font-size: 150px;
+    text-shadow: 0px 0px 4px black;
+    color:rgba(152,43,46,255);
+
+}
+
+ #b a:hover{
+    font-size: 155px;
+    color:rgba(112,0,14,255) ;
+
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0px 0px 4px black;
+    font-style: italic;  
+}
+
+#c a{ 
+    
+    text-decoration: none;
+    font-size: 80px;
+    text-shadow: 0px 0px 4px black;
+    color:rgba(152,43,46,255);
+}
+
+
+ #c a:hover{
+    font-size: 90px;
+    color:rgba(112,0,14,255) ;
+}
+
+.headerLine {
+    clear: both;
+    border: 0;
+    height: 12px;
+    box-shadow: inset 0 12px 12px -12px rgba(112,0,14,255);
+    margin-top: 700px;
+}
+
+#besteSellers{
+      
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0px 0px 4px black;
+    font-style: italic;  
+
+
+}
+
+.albums{
+
+    background-color:rgba(152,43,46,255);
+    color:rgba(112,0,14,255); 
+    height:700px ;
+    padding: 120px;
+    background-repeat: no-repeat; 
+    box-shadow: 10px 10px 10px 10px; 
+
+    
+}
+
+.album1 img{ 
+    background: url(images/ed1.jpg);
+    float: left;
+    width:26%;
+    height:450px;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    color: rgba(212,192,181);
+    box-shadow: 10px 10px 20px 5px; 
+    margin-left: 75px;
+   
+
+}
+
+.album1 img:hover{
+
+
+    background: url(images/ed2.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.album2 img{
+    background: url(images/im2_450x450.jpg);
+    float: left;
+    width: 26%;
+    height:450px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    color: rgba(212,192,181);
+    box-shadow: 10px 10px 20px 5px; 
+    background-size:100% 100%;
+
+}
+
+.album2 img:hover{
+
+
+    background: url(images/im1_450x450.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+
+.album3 img{
+    float: left;
+    background: url(images/Album-LanaDelReyHoneymoon_530x2x_450x450.jpg);
+    width:26%;
+    height:450px;
+    margin-left: 140px;
+    background-repeat: no-repeat;
+    color: rgba(212,192,181);
+    box-shadow: 10px 10px 20px 5px; 
+    background-size:100% 100%; 
+
+}
+
+.album3 img:hover{
+
+    background: url(images/71H-rYqJYZL._SL1200__450x450.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.headerLine2 {
+    clear: both;
+    border: 0;
+    height: 12px;
+    box-shadow: inset 0 12px 12px -12px rgba(112,0,14,255);
+    margin-top: 200px;
+
+}
+
+.map{
+    text-align: center;
+   
+
+}
+
+.program_reguli{
+    font-size:50px;
+    text-shadow: 0px 0px 4px black;
+    margin:50px;
+
+}
+
+#lista_1{
+    
+    float:left;
+    width: 60%;
+
+
+}
+
+#lista_2{
+    padding-left: 200px;
+    float: right;
+    width: 40%;
+
+
+}
+
+
+footer{
+    background-color: rgba(112,0,14,255);
+    color: rgba(212,192,181,0.7);
+    height: 220px;
+    font-family: footer;
+    font-size: 20px;
+    padding: 50px;
+
+}
+
+.lista_footer{
+    
+    float: left;
+    width: 30%;
+    padding-left: 200px;
+    margin: 0;
+}
+
+.telefon_adresa{
+    
+    float: left;
+    width: 20%;
+    margin: 0;
+
+}
+
+#instagram{
+    float: left;
+    padding-left: 100px;
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 34%;
+}
+  
+
+
+.fa-instagram {
+    background: rgba(212,192,181);
+    color: rgba(112,0,14,255) ;
+}
+
+
+@media only screen and (max-width:600px){
+    header{
+
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    nav{
+       
+        display: none;
+    }
+
+    .navigatie2{
+
+        display: none;
+       
+    }
+
+    .logo{
+        padding-left:130px;
+        margin-top: -60px;
+
+    }
+
+    main{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 3000px;
+        text-align: center;
+        font-size: 10px;
+        
+    }
+    .style{
+        float: none;
+        padding:0px ;
+        width:100%;
+        box-shadow: none;
+        height: 400px;
+       
+    }
+
+    .red{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        padding: 0px;
+        float: none;
+        text-align: center;
+
+    }
+
+    #b a { 
+        
+        padding: 0px;
+        margin-top: 0px;
+        text-align: center;
+        font-size: 60px;
+        
+    }
+
+    #b a:hover{
+
+        font-size: 63px;
+        color:rgba(112,0,14,255) ;
+        
+
+    }
+
+    #c a { 
+        
+        padding: 0px;
+        margin-top: 0px;
+        text-align: center;
+        font-size: 40px;
+        
+    }
+
+  
+    #c a:hover{
+
+        font-size: 42px;
+        color:rgba(112,0,14,255) ;
+
+    }
+
+    #besteSellers{
+
+        display: none;
+
+
+    }
+
+    .headerLine2{
+
+        display: none;
+
+    }
+
+
+
+
+    .albums{
+        float: none;
+        width: 100%;
+        height: 800px;
+        padding:0;
+        margin-top:-3400px;
+        margin-bottom: 350px;
+
+        
+    }
+    
+    .album1 img{ 
+        
+        float: none;
+        width:100%;
+        height:350px; 
+        margin:0px;
+       
+    
+    }
+    
+    
+    
+    .album2 img{
+        float: none;
+        width:100%;
+        height:350px; 
+        margin:0px;
+    
+    }
+    
+    .album3 img{
+        float: none;
+        width:100%;
+        height:350px; 
+        margin:0px;
+    
+    }
+
+    .program_reguli{
+        font-size:20px;
+        text-shadow: 0px 0px 4px black;
+        margin:0px;
+    }
+
+
+    #lista_1{
+    
+        float:none;
+        width: 100%;
+        background-color: rgba(212,192,181);
+      
+       
+    }
+    
+    #lista_2{
+        float: left;
+        width: 100%;
+        background-color: rgba(212,192,181);
+        padding-top: 52px;
+        padding-bottom: 70px;
+        padding-left: 0px;
+    }
+
+    footer{
+        height: 100%;
+        width: 100%;
+        font-size: 20px;
+        padding: 0px;
+        margin-top: 90px;
+    
+    }
+    .lista_footer{
+        
+        float: none;
+        width: 100%;
+        padding:0px;
+        margin: 0;
+    
+        
+    
+    }
+    
+    .telefon_adresa{
+        
+        float: none;
+        width: 100%;
+        margin: 0;
+    
+    }
+    
+    #instagram{
+        float: none;
+        padding:0px;
+    
+    }
+    
+    
+    
+}
+
+
+.mainCart{
+    margin: -40px;
+    background-color: rgba(212,192,181);
+    color: rgba(112,0,14,255) ;
+    height: 1500px;
+    text-align: center;
+    font-family: footer;
+    font-size: 25px ;
+    
+    
+}
+
+form > label {
+    display: block;
+    margin-top: 15px;
+}
+
+
+input[type=text], input[type=email], input[type=tel], input[type=password],  input[type=date],input[type=option]{
+    width: 25%;
+    border: 2px solid rgba(112,0,14,255);
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   
+
+}
+
+select {
+
+    width: 25%;
+    border: 2px solid rgba(112,0,14,255);
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   
+    
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color:rgba(112,0,14,255) ;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:600px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x:hidden;
+        
+
+    }  
+    
+    h1{
+        padding-top: 50px;
+        font-size: 40px;
+
+    }
+
+}
+
+
+.our_artists{
+    
+    background-image: url("images/fundal_alb.jpg");
+    height: 2200px;
+    width: 100%;
+    color:black;
+    font-size: 30px;
+    
+
+}
+
+.titlu_2{
+
+    text-decoration: none;
+    font-size: 100px;
+    text-shadow: 2px 5px 5px black;
+
+}
+
+.Subtitlu{
+    clear: both;
+    text-shadow: 0px 0px 5px black;
+    font-size: 50px;
+    padding-bottom: 40px;
+
+}
+
+
+.Subtitlu:hover{
+
+    font-size: 60px; ;
+
+}
+
+
+#Taylor{
+
+    float: left;
+    width: 40%;
+    font-size: px;
+    padding: 20px;
+    margin: 50px;
+    
+}
+
+#Taylor2{
+   
+    float: right;
+    background: url(images/origin.jpg);
+    width: 40%;
+    height: 600px;
+    margin-right:100px ;
+    margin-top:190px ;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    box-shadow: 10px 10px 20px 5px; 
+}
+
+@media only screen and (max-width:600px){
+    .our_artists{
+        width: 100%;
+        height: 100%;
+        overflow-x:hidden;
+        font-size: 17px;
+        text-align: center;
+        padding: 10px;
+
+    }  
+    
+    .titlu_2{
+        font-size: 40px;
+        padding-top: 60px;
+    }
+
+    .Subtitlu{
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 20px;
+
+    }
+
+    #Taylor{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    #Taylor2{
+    
+        background: url(images/taylor_media.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        margin-top:60px ;
+        box-shadow:none; 
+    }
+
+}
+
+
+
+
+

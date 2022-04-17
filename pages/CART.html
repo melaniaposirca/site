@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        
+        <title>Record Store - CART</title>
+        <link rel="stylesheet" href="../style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="mainCart">
+            
+            <h1>CART-Record Store</h1>
+            <p1>New customer? Sign up!</p1>
+            <form action="delivery.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="city">Choose the city:</label>
+                <select name="city" id="city">
+                    <option value="city1">New York City</option>
+                    <option value="city2">	Los Angeles</option>
+                    <option value="city3">Chicago</option>
+                </select>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+    
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="^\s*(?:\+?(\d{1,3}))?([-. (]*(\d{3})[-. )]*)?((\d{3})[-. ]*(\d{2,4})(?:[-.x ]*(\d+))?)\s*$">
+        
+
+                <label for="birthDate">Birth Date:</label>
+                <input type="date" id="birthDate" name="birthDate">
+        
+                <label for="userName">Username:</label>
+                <input type="text" id="userName" name="userName" >
+
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="pass">
+
+                <label for="pass">Confirm password:</label>
+                <input type="password" id="pass" name="pass">
+    
+                <div>
+                    <input type="radio" id="Remember1" name="Remember1">
+                    <label for="Remember1">Remember me</label>
+    
+                    <input type="radio" id="Remember2" name="Remember2">
+                    <label for="Remember2">Log out</label>
+                </div>
+    
+                <div>
+                    <input type="checkbox" id="extra1" name="extra1" value="logged">
+                    <label for="extra1">Save this information for next time</label>
+    
+                    <input type="checkbox" id="extra2" name="extra2" value="newsletter">
+                    <label for="extra2">Text me with news and offers</label>
+                </div>
+    
+                <div>
+                    <textarea id="message" name="message" rows="4" cols="50">comments for delivery</textarea>
+                </div>
+    
+                <input id="submitBtn" type="submit"  onclick="alert('Submited!')"  value="Submit">
+    
+    
+    
+            </form>
+
+
+        </div>
+    </body>
+</html>
